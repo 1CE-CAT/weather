@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погодное приложение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Погодное приложение</h1>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="latitude" placeholder="Широта">
+                <input type="text" id="longitude" placeholder="Долгота">
+                <button id="show-weather">Показать погоду</button>
+            </div>
+            <div id="error-message" class="error"></div>
+        </div>
+        
+        <div class="widgets-container" id="widgets-container">
+        </div>
+    </div>
+
+    <script src="widget.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
