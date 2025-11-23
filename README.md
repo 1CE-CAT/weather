@@ -18,4 +18,5 @@
 API интеграция
 Приложение использует Open-Meteo API для получения актуальных данных о погоде. 
 
-
+ссылка на сайт
+https://silver-faloodeh-d6a1d0.netlify.app/
